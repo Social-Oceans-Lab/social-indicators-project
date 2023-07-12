@@ -38,7 +38,6 @@ website:
           - quarto-workflows/browser.md
           - quarto-workflows/rstudio.qmd
           - quarto-workflows/jupyter.md
-          - r-example.qmd
       - learning-more.qmd
       - href: data-access.qmd
         text: Data Access
