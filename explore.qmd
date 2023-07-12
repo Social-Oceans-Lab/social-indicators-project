@@ -1,24 +1,15 @@
 ---
-title: Explore and setup
+title: Methods
 ---
 
 With this tutorial, we have a working example website that we will explore together. We'll learn a few rules and look for patterns to get an understanding of what things to do to help you start customizing and making it your own. And you can continue to use this website as a reference after the tutorial, along with [Quarto](https://quarto.org) documentation.
 
 We'll start our exploration online looking at the website architecture and GitHub repository. Then we'll setup a copy for ourselves so that we can modify from a working example, which is a great way to learn something new. We'll set it up so that any modifications (commits) will automatically be republished via GitHub Actions. Subsequent chapters will describe how to modify your repo using different tools (browser, RStudio, Jupyter).
 
-## Exploring online
+## Interviews
 
 ### The website itself
 
-[This website](https://openscapes.github.io/quarto-website-tutorial/) has 5 things you can see on the left sidebar:
-
--   Welcome
--   Exploring and setup
--   Quarto workflows
--   Learning more
--   Transition from Rmd
-
-Most of these are pages, but you'll see that "Quarto Workflows" has an arrow; it is a folder with additional pages inside.
 
 ### The website's repo
 
