@@ -12,14 +12,13 @@ website:
     logo: "images/collab_logo.png"
     logo-alt: "Official logos of the University of Maine, Maine Department of Marine Resources, Maine Lobstermen's Association, and the Maine Center for Coastal Fisheries"
     right:
-      - href: index.qmd
-        text: Home
+      - text: "Home"
+      - file: index.qmd
       - methods.qmd
       - results.qmd
-      - href: data-access.qmd
-        text: Data Access
-      - icon: envelope
-        href: mailto:theresa.burnham@maine.edu
+      - text: "Data Access"
+      - file: data-access.qmd
+      - text: "Contact"
   page-footer:
     background: light
     right: "This page is built using [Quarto](https://quarto.org/)."
