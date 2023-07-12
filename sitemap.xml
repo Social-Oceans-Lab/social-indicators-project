@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/learning-more.html</loc>
-    <lastmod>2023-07-12T22:43:00.600Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/explore.html</loc>
-    <lastmod>2023-07-12T22:42:59.568Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/browser.html</loc>
-    <lastmod>2023-07-12T22:42:58.268Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/index.html</loc>
-    <lastmod>2023-07-12T22:42:57.224Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/index.html</loc>
-    <lastmod>2023-07-12T22:42:55.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/rstudio.html</loc>
-    <lastmod>2023-07-12T22:42:57.812Z</lastmod>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/data-access.html</loc>
+    <lastmod>2023-07-12T23:14:10.286Z</lastmod>
   </url>
   <url>
     <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/jupyter.html</loc>
-    <lastmod>2023-07-12T22:42:58.936Z</lastmod>
+    <lastmod>2023-07-12T23:14:09.378Z</lastmod>
   </url>
   <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/data-access.html</loc>
-    <lastmod>2023-07-12T22:43:00.192Z</lastmod>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/rstudio.html</loc>
+    <lastmod>2023-07-12T23:14:08.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/methods.html</loc>
+    <lastmod>2023-07-12T23:14:07.294Z</lastmod>
+  </url>
+  <url>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/index.html</loc>
+    <lastmod>2023-07-12T23:14:03.762Z</lastmod>
+  </url>
+  <url>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/index.html</loc>
+    <lastmod>2023-07-12T23:14:07.762Z</lastmod>
+  </url>
+  <url>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/browser.html</loc>
+    <lastmod>2023-07-12T23:14:08.734Z</lastmod>
+  </url>
+  <url>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/results.html</loc>
+    <lastmod>2023-07-12T23:14:09.706Z</lastmod>
   </url>
 </urlset>
