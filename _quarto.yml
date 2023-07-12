@@ -4,9 +4,8 @@ project:
 website:
   page-navigation: true
   title: "Making sharable documents with Quarto"
-  site-url: "https://openscapes.github.io/quarto-website-tutorial"
-  repo-url: https://github.com/openscapes/quarto-website-tutorial
-  repo-actions: [edit, issue]
+  site-url: "https://social-oceans-lab.github.io/social-indicators-project/"
+  repo-url: https://github.com/Social-Oceans-Lab/social-indicators-project
 
   page-footer:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
