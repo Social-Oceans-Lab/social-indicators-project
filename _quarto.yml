@@ -7,7 +7,7 @@ website:
   site-url: "https://social-oceans-lab.github.io/social-indicators-project/"
   repo-url: https://github.com/Social-Oceans-Lab/social-indicators-project
   navbar:
-    title: false
+    title: true
     background: light
     logo: "images/collab_logo.png"
     logo-alt: "Official logos of the University of Maine, Maine Department of Marine Resources, Maine Lobstermen's Association, and the Maine Center for Coastal Fisheries"
@@ -33,10 +33,5 @@ format:
     code-copy: true
     code-overflow: wrap
     toc: true
-
-
-filters:
-  - include-files.lua
-  - quarto
 
 
