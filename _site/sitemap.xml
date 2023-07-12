@@ -1,55 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/rstudio.html</loc>
-    <lastmod>2023-07-12T20:43:09.768Z</lastmod>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/rstudio.html</loc>
+    <lastmod>2023-07-12T21:51:27.709Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/jupyter.html</loc>
-    <lastmod>2023-07-12T20:43:08.768Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/explore.html</loc>
-    <lastmod>2023-07-12T20:43:07.697Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/index.html</loc>
-    <lastmod>2023-07-12T20:43:06.659Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/r-example.html</loc>
-    <lastmod>2023-07-12T20:43:05.649Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/transition-from-rmarkdown.html</loc>
-    <lastmod>2023-07-12T20:43:06.224Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/learning-more.html</loc>
-    <lastmod>2023-07-12T20:43:07.041Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/browser.html</loc>
-    <lastmod>2023-07-12T20:43:08.120Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/index.html</loc>
-    <lastmod>2023-07-12T20:43:09.247Z</lastmod>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/jupyter.html</loc>
+    <lastmod>2023-07-12T21:51:26.699Z</lastmod>
   </url>
   <url>
     <loc>https://social-oceans-lab.github.io/social-indicators-project/explore.html</loc>
-    <lastmod>2023-07-12T21:41:50.030Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/r-example.html</loc>
-    <lastmod>2023-07-12T21:44:22.863Z</lastmod>
+    <lastmod>2023-07-12T21:51:25.572Z</lastmod>
   </url>
   <url>
     <loc>https://social-oceans-lab.github.io/social-indicators-project/data-access.html</loc>
-    <lastmod>2023-07-12T21:41:49.396Z</lastmod>
+    <lastmod>2023-07-12T21:51:24.433Z</lastmod>
+  </url>
+  <url>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/r-example.html</loc>
+    <lastmod>2023-07-12T21:51:23.444Z</lastmod>
   </url>
   <url>
     <loc>https://social-oceans-lab.github.io/social-indicators-project/index.html</loc>
-    <lastmod>2023-07-12T21:41:54.167Z</lastmod>
+    <lastmod>2023-07-12T21:51:23.815Z</lastmod>
+  </url>
+  <url>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/learning-more.html</loc>
+    <lastmod>2023-07-12T21:51:24.823Z</lastmod>
+  </url>
+  <url>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/browser.html</loc>
+    <lastmod>2023-07-12T21:51:26.063Z</lastmod>
+  </url>
+  <url>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/index.html</loc>
+    <lastmod>2023-07-12T21:51:27.170Z</lastmod>
   </url>
 </urlset>
