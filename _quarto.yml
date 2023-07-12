@@ -41,7 +41,7 @@ website:
           - r-example.qmd
       - learning-more.qmd
       - href: transition-from-rmarkdown.qmd
-        text: Transition from Rmd
+        text: Data Access
 
 
 format:
