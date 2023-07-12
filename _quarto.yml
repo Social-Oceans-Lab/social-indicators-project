@@ -3,45 +3,27 @@ project:
 
 website:
   page-navigation: true
-  title: "Making sharable documents with Quarto"
+  title: "AMLOB"
   site-url: "https://social-oceans-lab.github.io/social-indicators-project/"
   repo-url: https://github.com/Social-Oceans-Lab/social-indicators-project
-
-  page-footer:
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; CC-By Openscapes, 2022"
-
-  sidebar:
-    logo: "images/openscapes_hex.png"
-    pinned: true
-    align: center
-    tools:
-      - icon: globe
-        href: https://openscapes.org
-        text: "Openscapes.org"
-      - icon: github
-        href: https://github.com/openscapes/quarto-website-tutorial
-        text: "Quarto website tutorial"
-      - icon: twitter
-        href: https://twitter.com/openscapes
-        text: "Openscapes Twitter"
-
-    style: "docked"
-    search: true
-    collapse-level: 1
-    contents:
+  navbar:
+    title: false
+    background: light
+    logo: "images/collab_logo.png"
+    logo-alt: "Official logos of the University of Maine, Maine Department of Marine Resources, Maine Lobstermen's Association, and the Maine Center for Coastal Fisheries"
+    right:
       - href: index.qmd
-        text: Welcome
-      - explore.qmd
-      - section: quarto-workflows/index.qmd
-        contents:
-          - quarto-workflows/browser.md
-          - quarto-workflows/rstudio.qmd
-          - quarto-workflows/jupyter.md
-      - learning-more.qmd
+      - text: Home
+      - methods.qmd
+      - results.qmd
       - href: data-access.qmd
-        text: Data Access
-
+      - text: Data Access
+      - icon: envelope
+      - href: mailto:theresa.burnham@maine.edu
+  page-footer:
+    background: light
+    right: "This page is built using [Quarto](https://quarto.org/)."
+    left: "&copy; Univeristy of Maine, 2023"
 
 format:
   html:
