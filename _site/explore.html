@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Making sharable documents with Quarto - Transition from RMarkdown</title>
+<title>Making sharable documents with Quarto - Explore and setup</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -63,7 +63,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./learning-more.html" rel="prev">
+<link href="./quarto-workflows/index.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -108,7 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./transition-from-rmarkdown.html">Transition from Rmd</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./explore.html">Explore and setup</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -147,7 +148,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./explore.html" class="sidebar-item-text sidebar-link">
+  <a href="./explore.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Explore and setup</span></a>
   </div>
 </li>
@@ -194,7 +195,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./transition-from-rmarkdown.html" class="sidebar-item-text sidebar-link active">
+  <a href="./transition-from-rmarkdown.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Transition from Rmd</span></a>
   </div>
 </li>
@@ -208,31 +209,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#bookdown-to-quarto" id="toc-bookdown-to-quarto" class="nav-link active" data-scroll-target="#bookdown-to-quarto">Bookdown to Quarto</a>
+  <li><a href="#exploring-online" id="toc-exploring-online" class="nav-link active" data-scroll-target="#exploring-online">Exploring online</a>
   <ul class="collapse">
-  <li><a href="#experimenting-in-a-low-risk-environment" id="toc-experimenting-in-a-low-risk-environment" class="nav-link" data-scroll-target="#experimenting-in-a-low-risk-environment">Experimenting in a low-risk environment</a></li>
-  <li><a href="#the-conversion" id="toc-the-conversion" class="nav-link" data-scroll-target="#the-conversion">The conversion</a></li>
-  <li><a href="#citations" id="toc-citations" class="nav-link" data-scroll-target="#citations">Citations</a></li>
-  <li><a href="#publishing-notes" id="toc-publishing-notes" class="nav-link" data-scroll-target="#publishing-notes">Publishing notes</a></li>
-  <li><a href="#github-actions" id="toc-github-actions" class="nav-link" data-scroll-target="#github-actions">GitHub Actions</a></li>
+  <li><a href="#the-website-itself" id="toc-the-website-itself" class="nav-link" data-scroll-target="#the-website-itself">The website itself</a></li>
+  <li><a href="#the-websites-repo" id="toc-the-websites-repo" class="nav-link" data-scroll-target="#the-websites-repo">The website’s repo</a></li>
   </ul></li>
-  <li><a href="#distill-to-quarto" id="toc-distill-to-quarto" class="nav-link" data-scroll-target="#distill-to-quarto">Distill to quarto</a>
+  <li><a href="#quarto.yml-intro" id="toc-quarto.yml-intro" class="nav-link" data-scroll-target="#quarto.yml-intro"><code>_quarto.yml</code> intro</a></li>
+  <li><a href="#fork-to-your-account" id="toc-fork-to-your-account" class="nav-link" data-scroll-target="#fork-to-your-account">Fork to your account</a>
   <ul class="collapse">
-  <li><a href="#publishing-notes-1" id="toc-publishing-notes-1" class="nav-link" data-scroll-target="#publishing-notes-1">Publishing notes</a></li>
+  <li><a href="#download-instead-of-fork" id="toc-download-instead-of-fork" class="nav-link" data-scroll-target="#download-instead-of-fork">Download instead of fork</a></li>
   </ul></li>
-  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting">Troubleshooting</a>
-  <ul class="collapse">
-  <li><a href="#github-action-fails-says-you-need-rmarkdown-but-you-dont-have-r-code" id="toc-github-action-fails-says-you-need-rmarkdown-but-you-dont-have-r-code" class="nav-link" data-scroll-target="#github-action-fails-says-you-need-rmarkdown-but-you-dont-have-r-code">GitHub Action fails, says you need RMarkdown but you don’t have R code!</a></li>
-  </ul></li>
+  <li><a href="#setup-github-action" id="toc-setup-github-action" class="nav-link" data-scroll-target="#setup-github-action">Set up GitHub publishing</a></li>
+  <li><a href="#confirm" id="toc-confirm" class="nav-link" data-scroll-target="#confirm">Confirm your website is published</a></li>
+  <li><a href="#renaming-your-repo" id="toc-renaming-your-repo" class="nav-link" data-scroll-target="#renaming-your-repo">Renaming your repo</a></li>
+  <li><a href="#onward" id="toc-onward" class="nav-link" data-scroll-target="#onward">Onward!</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/openscapes/quarto-website-tutorial/edit/main/transition-from-rmarkdown.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/openscapes/quarto-website-tutorial/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/openscapes/quarto-website-tutorial/edit/main/explore.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/openscapes/quarto-website-tutorial/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Transition from RMarkdown</h1>
+<h1 class="title">Explore and setup</h1>
 </div>
 
 
@@ -247,119 +246,153 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>You may already have workflows in RMarkdown and are interested in transitioning to Quarto. There’s no hurry to migrate to Quarto. Keep using Rmarkdown and when you’re ready the migration will be fine.</p>
-<p>Here are some notes as we migrate RMarkdown sites and books.</p>
-<p><em>TODO: translating R code chunks</em></p>
-<section id="bookdown-to-quarto" class="level2">
-<h2 class="anchored" data-anchor-id="bookdown-to-quarto">Bookdown to Quarto</h2>
-<p>Converting a Bookdown book to Quarto is slightly more involved than converting a website. A book has chapters whose order must be defined, and likely has citations and <a href="https://quarto.org/docs/books/book-crossrefs.html">cross-refs</a>. Still, conversion is not that hard.</p>
-<p>We got some practice converting from Bookdown to Quarto by helping Gavin Fay convert his lab’s fantastic onboarding documentation, the <a href="https://thefaylab.github.io/lab-manual/">Faylab Lab Manual</a>. Here’s the GitHub view <a href="https://github.com/thefaylab/lab-manual/tree/4ebe9614d4fcab9d782073057ef6e56e9213c167">before</a> and <a href="https://github.com/thefaylab/lab-manual/tree/3ce2418ed7bd65936a130a42a7f975f55fb9b734">after</a>.</p>
-<p>Our best first reference material for this was Nick Tierney’s <a href="https://www.njtierney.com/post/2022/04/11/rmd-to-qmd/">Notes on Changing from Rmarkdown/Bookdown to Quarto</a>. Nick shares some scripts in that post to automate some changes. In our case, the book was small enough that we made all changes manually. <a href="https://quarto.org/">Quarto documentation</a> was indispensable.</p>
-<section id="experimenting-in-a-low-risk-environment" class="level3">
-<h3 class="anchored" data-anchor-id="experimenting-in-a-low-risk-environment">Experimenting in a low-risk environment</h3>
-<p>We forked a copy of the Faylab Lab manual to the Openscapes organization, and worked in a branch so we could make changes relatively risk-free. We could always fork a new copy of the original if we “broke” something. (Caution: the default when making a pull request from a fork is to push changes to the original upstream repo, not your fork and it does this without warning if you have write-access to that repo.) With local previews it’s easy to test / play with settings to see what they do. We tended to make a change, Preview, then compare the look and functionality of the book to the original. It was helpful to comment out some elements of the configuration file <code>_output.yml</code> after their counterparts had been added to the Quarto configuration file <code>_quarto.yml</code>, or to confirm they were no longer needed, before making the drastic move of deleting them.</p>
+<p>With this tutorial, we have a working example website that we will explore together. We’ll learn a few rules and look for patterns to get an understanding of what things to do to help you start customizing and making it your own. And you can continue to use this website as a reference after the tutorial, along with <a href="https://quarto.org">Quarto</a> documentation.</p>
+<p>We’ll start our exploration online looking at the website architecture and GitHub repository. Then we’ll setup a copy for ourselves so that we can modify from a working example, which is a great way to learn something new. We’ll set it up so that any modifications (commits) will automatically be republished via GitHub Actions. Subsequent chapters will describe how to modify your repo using different tools (browser, RStudio, Jupyter).</p>
+<section id="exploring-online" class="level2">
+<h2 class="anchored" data-anchor-id="exploring-online">Exploring online</h2>
+<section id="the-website-itself" class="level3">
+<h3 class="anchored" data-anchor-id="the-website-itself">The website itself</h3>
+<p><a href="https://openscapes.github.io/quarto-website-tutorial/">This website</a> has 5 things you can see on the left sidebar:</p>
+<ul>
+<li>Welcome</li>
+<li>Exploring and setup</li>
+<li>Quarto workflows</li>
+<li>Learning more</li>
+<li>Transition from Rmd</li>
+</ul>
+<p>Most of these are pages, but you’ll see that “Quarto Workflows” has an arrow; it is a folder with additional pages inside.</p>
 </section>
-<section id="the-conversion" class="level3">
-<h3 class="anchored" data-anchor-id="the-conversion">The conversion</h3>
-<p>Here are the main steps to convert the Faylab Lab manual from Bookdown to Quarto.</p>
-<p>Create new empty file called <code>_quarto.yml</code> and add book metadata there. The screenshots below</p>
-<p>Set project type as <code>book</code>.</p>
-<p>Move metadata out of <code>index.qmd</code> and into <code>_quarto.yml</code>. Title, author, and publication date were in <code>index.qmd</code> with date set using <code>date: "Last updated:r Sys.Date()"</code>. Now these are in <code>_quarto.yml</code> with date set using <code>date: last-modified</code>. Note that having R code would require you to adjust code chunk options in the Quarto style (<code>#|</code>). This tripped us up a bit; see <a href="#github-actions">GitHub Actions</a>.</p>
-<p>Move chapters listing out of <code>_bookdown.yml</code> and into <code>_quarto.yml</code>.</p>
-<p>Add page footer to <code>_quarto.yml</code>.</p>
-<p>Here’s what ours looked like when we finished the steps above (<a href="https://github.com/thefaylab/lab-manual/blob/main/_quarto.yml"><code>_quarto.yml</code></a>).</p>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<section id="the-websites-repo" class="level3">
+<h3 class="anchored" data-anchor-id="the-websites-repo">The website’s repo</h3>
+<p>Let’s go to this website’s GitHub repository (also called a “repo”), <a href="https://github.com/openscapes/quarto-website-tutorial" class="uri"><strong>https://github.com/openscapes/quarto-website-tutorial</strong></a>. You can also click there from any page in this tutorial website by clicking the GitHub octocat icon underneath the Openscapes logo in the left navbar (click it holding command on Mac, or control on a PC to open it in a different tab in your browser).</p>
+<p><strong>Have a look at the filenames.</strong> We can recognize the names of the webpages we’ve seen above, and they have red arrows marking them in the image below. You’ll see the “quarto-workflows” folder and the rest in this site are <code>.qmd</code> files, which are plain text Quarto files that can combine Markdown text with code. <code>index.qmd</code> is the home page. If you click inside “quarto-workflows” you’ll see a mix of filetypes!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/faylab-manual-quarto-yml.png" class="img-fluid figure-img" alt="_quarto.yml file contents"></p>
-<figcaption class="figure-caption">_quarto.yml contents</figcaption>
+<p><img src="images/quarto-files-github.png" class="img-fluid figure-img" style="width:80.0%" alt="Screenshot of files on GitHub with red arrows identifying the files that we saw in the left sidebar"></p>
+<figcaption class="figure-caption">quarto-website-tutorial GitHub repository with files for webpages marked with red arrows</figcaption>
 </figure>
 </div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><strong>The <code>_site</code> folder</strong> has html files with names that should be familiar: they match the <code>.md</code> files we were just exploring. This folder is where Quarto stores files to build the website.</p>
+</section>
+</section>
+<section id="quarto.yml-intro" class="level2">
+<h2 class="anchored" data-anchor-id="quarto.yml-intro"><code>_quarto.yml</code> intro</h2>
+<p>There is also a <code>_quarto.yml</code> file, which is the website’s configuration file. It is essentially metadata for the website that includes the order that the pages/chapters will be in. This is where you update the organization of your website: which page comes before another. If we compare side-by-side, you’ll see that the pages that appear on our website are listed there.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/faylab-manual.png" class="img-fluid figure-img" alt="screenshot of Lab Manual book"></p>
-<figcaption class="figure-caption">Faylab Lab Manual</figcaption>
+<p><img src="images/quarto-yml-site-side-by-side2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">_quarto.yml and website side-by-side</figcaption>
 </figure>
 </div>
-</div>
-</div>
-</div>
-<p>Change insertion of images from html style to Quarto style. (Note Quarto calls them “figures”, not “images”.) The following snippet will insert the GitHub octocat logo in a page:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">![]</span><span class="er">(</span><span class="ex">https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png</span><span class="kw">)</span><span class="ex">{fig-align=</span><span class="st">"left"</span> width=<span class="st">"35px"</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Change all filename extensions <code>.Rmd</code> -&gt; <code>.qmd</code> (you could Preview after this change and see that the book looks the same). Note that Quarto works with <code>.Rmd</code> files just as well as it does <code>.qmd</code>, so this change is not urgent. In fact, if you have a lot of R code in your .Rmds (unlike the Faylab Lab Manual), there will be additional tinkering needed to make the code chunks happy.</p>
+<p>We’ll learn more about how to interact with <code>_quarto.yml</code> in <a href="./quarto-workflows/index.html">Quarto Workflows</a>.</p>
 </section>
-<section id="citations" class="level3">
-<h3 class="anchored" data-anchor-id="citations">Citations</h3>
-<p>The Faylab Lab Manual cited two papers, presenting us with an opportunity to see how easy it is to add references to a Quarto book. Briefly, in the Visual Editor, Insert &gt; Citation &gt; DOI. Pasting the DOI or its full URL, we can insert the citation. This automatically creates a <code>references.bib</code> file and adds the full citations at the bottom of the chapter page (<a href="https://youtu.be/azVAl343CIU?t=2923">watch demo</a>). In July 2022, we had to manually add a <code>## References</code> heading, but this may not be necessary in future Quarto updates.</p>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<section id="fork-to-your-account" class="level2">
+<h2 class="anchored" data-anchor-id="fork-to-your-account">Fork to your account</h2>
+<p>Let’s start with an existing Quarto site and copy it into your space to edit. You’ll need a free GitHub account that you create at <a href="https://github.com">github.com</a> (follow <a href="https://happygitwithr.com/github-acct.html">this advice</a> about choosing your username).</p>
+<p>First, choose an existing website to copy. The simplest option is to start with this site: <a href="https://github.com/Openscapes/quarto-website-tutorial">quarto-website-tutorial</a>.</p>
+<p>Other options of potential interest:</p>
+<ul>
+<li><a href="https://github.com/NASA-Openscapes/2021-Cloud-Hackathon">2021-Cloud-Hackathon</a></li>
+<li><a href="https://github.com/podaac/2022-SWOT-Ocean-Cloud-Workshop">2022-SWOT-Ocean-Cloud-Workshop</a></li>
+<li><a href="https://openscapes.github.io/approach-guide">Openscapes Approach-Guide</a></li>
+</ul>
+<p>Next, follow <a href="https://github.com/thefaylab/lab-manual/wiki/Quick-steps-to-making-a-copy-of-the-lab-manual-&amp;-publishing-it">these steps to fork and setup your repo with GitHub Actions</a> from Gavin Fay, using the repo you chose. These instructions will take ~5 minutes.</p>
+<p>Now you’ve got a copy of your repo of choice in your own GitHub account, and you’re set to start making your own edits. Your GitHub repo is set up with a GitHub Action that will use Quarto to rebuild and republish your site anytime you make a commit: committing will trigger the GitHub Action to rebuild and republish the book.</p>
+<p>Note that the GitHub Action for this book does not include R or Python so those will need to be added if your website relies on code. See <a href="https://github.com/r-lib/actions" class="uri">https://github.com/r-lib/actions</a> for more details and examples.</p>
+<section id="download-instead-of-fork" class="level3">
+<h3 class="anchored" data-anchor-id="download-instead-of-fork">Download instead of fork</h3>
+<p>Forking might not always be the way to go - you can’t fork into the same GitHub user account or organization so if for example you want to make a copy of <a href="https://github.com/nasa-openscapes/2021-Cloud-Hackathon">2021-Cloud-Hackathon</a> repo within the same NASA-Openscapes GitHub Organization, you’ll need to download instead of fork. In this case, follow these steps to download and copy into a new repository, and set up the GitHub Action separately.</p>
+<section id="download-github-repo-files" class="level4">
+<h4 class="anchored" data-anchor-id="download-github-repo-files">Download github repo files</h4>
+<p>Navigate to <a href="https://github.com/openscapes/quarto-website-tutorial" class="uri">https://github.com/openscapes/quarto-website-tutorial</a> (or any other quarto site repo of choice). Click the green “Code” button and select “Download ZIP”. When it downloads on your computer, unzip the files.</p>
+</section>
+<section id="create-a-new-github-repo" class="level4">
+<h4 class="anchored" data-anchor-id="create-a-new-github-repo">Create a new GitHub repo</h4>
+<p>Navigate to your GitHub account or organization, and create a new repository, naming it what you’d like. You’ll need a free GitHub account that you create at <a href="https://github.com">github.com</a> (follow <a href="https://happygitwithr.com/github-acct.html">this advice</a> about choosing your username). When you’re logged in, <a href="https://github.com">github.com</a> will show a green button that says “New” which you’ll also see as you navigate to your username’s repository page.</p>
+</section>
+<section id="add-original-site-files" class="level4">
+<h4 class="anchored" data-anchor-id="add-original-site-files">Add original site files</h4>
+<p>To use the GitHub file uploader, click the button next to the green “Code” button that says “Add file”. Add file &gt; Upload files. Then, on your computer, select all the files in unzipped folder (command-A or control-A), and drag them to the GitHub uploader page. Scroll down to write a commit message, which effectively saves your files when you’re working in the browser.</p>
+<p>Note: if you’re comfortable cloning the new repository and copying files into it locally before committing and pushing back to GitHub, that can be preferable to the uploader, which does have limitations with complex repos (although the uploader works fine with this tutorial repo).</p>
+</section>
+</section>
+</section>
+<section id="setup-github-action" class="level2">
+<h2 class="anchored" data-anchor-id="setup-github-action">Set up GitHub publishing</h2>
+<p>If you’ve used the GitHub uploader, you’ll need to set up GitHub publishing separately. We’ll do this in a few steps: we’ll set up a GitHub Action within your repo, and create a <code>gh-pages</code> branch.</p>
+<p><strong>First, the GitHub Action</strong>. Go back to your main view of your GitHub repository by clicking on the name of your repository in blue at the top-left (the url in your browser window should say https://github.com/username/repo-name).</p>
+<p>Next to the green code button, click Add file &gt; Create new file. Name it exactly this: <code>.github/workflows/quarto-publish.yml</code> . In detail: start by typing the <code>.</code> with <code>github</code> and when you type the <code>/</code> it will give you a new text box to type <code>workflows</code> (plural!), then another <code>/</code>, and finally, <code>quarto-publish.yml</code>.</p>
+<p>Now you’ll have an empty new file. Paste the following in this empty file - you can click on the top-right of this box to copy all the code inside this code box:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">on</span><span class="kw">:</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">push</span><span class="kw">:</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">branches</span><span class="kw">:</span><span class="at"> main</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">name</span><span class="kw">:</span><span class="at"> Render and Publish</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">jobs</span><span class="kw">:</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">build-deploy</span><span class="kw">:</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">runs-on</span><span class="kw">:</span><span class="at"> ubuntu-latest</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">steps</span><span class="kw">:</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Check out repository</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> actions/checkout@v2 </span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="at">        </span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Set up Quarto</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> quarto-dev/quarto-actions/setup@v2</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">with</span><span class="kw">:</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co">          # To install LaTeX to build PDF book </span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">tinytex</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span><span class="at"> </span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co">          # uncomment below and fill to pin a version</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co">          # version: 0.9.600</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="at">      </span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co">      # add software dependencies here</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Publish to GitHub Pages (and render)</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> quarto-dev/quarto-actions/publish@v2</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">with</span><span class="kw">:</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">target</span><span class="kw">:</span><span class="at"> gh-pages</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">env</span><span class="kw">:</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">GITHUB_TOKEN</span><span class="kw">:</span><span class="at"> ${{ secrets.GITHUB_TOKEN }}</span><span class="co"> # this secret is always available for github actions</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Commit this to save your new <code>quarto-publish.yml</code> file. This is your GitHub Action.</p>
+<p><strong>Next, we’ll create a new <code>gh-pages</code> branch</strong>. Go back to the main view of your GitHub repository. On the far left from the green “Code” button, click the button that says “main”. In the pull-down menu, type <code>gh-pages</code> - all lowercase, with a hyphen. Click the bold text that says “Create branch: gh-pages from main”.</p>
+<p>Now click on the Settings tab in the top right of your repository. On the left sidebar, click Pages. At the top of Pages under “Source”, select <code>gh-pages</code> root, and press Save. You’ll then see a green highlighted text saying that your site is published at a “github.io” url.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/rstudio-insert-citation.png" class="img-fluid figure-img" alt="RStudio Visual Editor Insert dropdown menu with Citation highlighted"></p>
-<figcaption class="figure-caption">Insert citation via its DOI using RStudio Visual Editor</figcaption>
+<p><img src="images/github-source-gh-pages.png" class="img-fluid figure-img" style="width:95.0%"></p>
 </figure>
 </div>
+</section>
+<section id="confirm" class="level2">
+<h2 class="anchored" data-anchor-id="confirm">Confirm your website is published</h2>
+<p>To confirm that your website is published, go back to your main repository page. You’ll now see an orange dot showing that the GitHub Action is beginning to publish the page.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/github-action-orange.png" class="img-fluid figure-img" style="width:95.0%" alt="Screenshot of repo with orange dot indicating in-progress GitHub Action build"></p>
+<figcaption class="figure-caption">Our repo with orange dot indicating in-progress GitHub Action build</figcaption>
+</figure>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/rstudio-insert-citation-doi.png" class="img-fluid"></p>
+<p>If you do not see this orange dot, you might need to make a small commit to trigger the GitHub Actions build. If this is the case, click the pencil on the top-right of the README.md file as circled in the image below, add some small edit (like a space after a period), and scroll down to click commit. Now you should see the orange dot.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/github-edit-readme.png" class="img-fluid figure-img" style="width:95.0%"></p>
+</figure>
 </div>
+<p>When your orange do becomes a green check, you can go inspect your published site at “https://username.github.io/your-repo). For example: <a href="https://openscapes.github.io/quarto-website-tutorial" class="uri">https://openscapes.github.io/quarto-website-tutorial</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/github-action-green.png" class="img-fluid figure-img" style="width:95.0%" alt="Screenshot of repo with green check indicating successful GitHub Action build"></p>
+<figcaption class="figure-caption">Our repo with green check indicating successful GitHub Action build</figcaption>
+</figure>
 </div>
-</div>
 </section>
-<section id="publishing-notes" class="level3">
-<h3 class="anchored" data-anchor-id="publishing-notes">Publishing notes</h3>
-<p>If the book’s output is strictly html, there’s no need to specify <code>output-dir</code> in <code>_quarto.yml</code>. The output directory default is <code>_book/</code>, which is what we’d like. If we wanted other types of output like like PDF or EPUB, etc. those single file outputs are also written to the output-dir (<a href="https://quarto.org/docs/books/book-output.html#output-path">Quarto docs</a>).</p>
-<p>If you currently have a <code>docs/</code> folder, delete it.</p>
-<p>Update <a href="https://github.com/thefaylab/lab-manual/blob/main/.gitignore"><code>.gitignore</code></a> to ignore <code>_book/</code>. At the same time, we have it ignore caches and a .quarto file:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/.quarto/</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">*_cache/</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">_book/</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Once all is settled, delete <code>_output.yml</code>.</p>
-<p>Once the Openscapes fork was fully reviewed, we made a pull request from that to the main branch of the book’s repo. Once that was merged, we set up GitHub Actions to render the book. (TODO: instructions for GitHub Actions)</p>
+<section id="renaming-your-repo" class="level2">
+<h2 class="anchored" data-anchor-id="renaming-your-repo">Renaming your repo</h2>
+<p>If you’d like to rename your repo, go to Settings and the option to rename is on the top of the main settings page.</p>
 </section>
-<section id="github-actions" class="level3">
-<h3 class="anchored" data-anchor-id="github-actions">GitHub Actions</h3>
-<p>This book was mostly prose and screenshots without any R code. This made the conversion from RMarkdown to Quarto likely more straightforward than if you also needed to adjust code chunk options in the quarto style (#|). Our initial GitHub Action to render the converted Faylab Lab Manual failed because we had a piece of R code - even though the code was commented out! This was resolved when we deleted the line.</p>
-</section>
-</section>
-<section id="distill-to-quarto" class="level2">
-<h2 class="anchored" data-anchor-id="distill-to-quarto">Distill to quarto</h2>
-<p>We transitioned our <a href="https://openscapes.org/events">events site</a> from distill to quarto in May 2022 (github view <a href="https://github.com/Openscapes/events/tree/13f95f507629eba5e6ed721d1902258dcbc421e6">before</a> and <a href="https://github.com/Openscapes/events/tree/237acd5144d810cb5465cc5616ee453f2e261fbc">after</a>). We followed excellent notes and examples from <a href="https://www.njtierney.com/post/2022/04/11/rmd-to-qmd/">Nick Tierney</a> and <a href="https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/">Danielle Navarro</a>.</p>
-<p>After we had changed all the files, the Build tab in the RStudio IDE still showed “Build website” rather then “Render Website” and “Preview Website”, and would error when we pushed them (because that button was expecting a distill site, not a quarto site). To fix this, we updated the <code>.Rproj</code> file. Clicking on the <code>.Rproj</code> file in the RStudio IDE will open a dialog box where you can click things you want (you can also open these in a text editor or from the GitHub website to see the actual text). To fix this situation with the Build tab: Project Options &gt; Build Tools &gt; Project Build Tools &gt; <strong>None</strong>.</p>
-<p>Looking at files <a href="https://github.com/Openscapes/events/blob/main/posts/_metadata.yml"><code>/posts/_metadata.yml</code></a> and <a href="https://github.com/Openscapes/events/blob/main/_quarto.yml"><code>_quarto.yml</code></a> helps see where things are defined. For example, to make event post citations appear, we added <code>citation: true</code> to <a href="https://github.com/Openscapes/events/blob/main/posts/_metadata.yml"><code>/posts/_metadata.yml</code></a> and in <a href="https://github.com/Openscapes/events/blob/main/_quarto.yml"><code>_quarto.yml</code></a> under the <code>website</code> key we set <code>site-url: https://openscapes.github.io/events</code>. We deleted <code>footer.html</code> used with distill because footer is now defined in <code>quarto.yml</code>.</p>
-<section id="publishing-notes-1" class="level3">
-<h3 class="anchored" data-anchor-id="publishing-notes-1">Publishing notes</h3>
-<blockquote class="blockquote">
-<p><strong>Background</strong>: Our distill site had been set up to output to a <code>docs</code> folder, and had GitHub Settings &gt; Pages set to look there rather <code>gh-pages</code> branch. (Julie note: this was a new-to-me capability when we set up the events distill site in Spring 2021 so I had forgotten that was an option). We’ve inititally kept this same set-up for now with our events page in <code>_quarto.yml</code>: <a href="https://github.com/Openscapes/events/blob/237acd5144d810cb5465cc5616ee453f2e261fbc/_quarto.yml#L3"><code>output-dir: docs</code></a>. However, this is sub-optimal; better to not have to commit and push these files but to instead have a GitHub Action generate them upon a commit. So the following is what we did -</p>
-</blockquote>
-<p><strong>Don’t specify <code>output-dir</code> in <code>_quarto.yml</code></strong>. The output directory default is <code>_site/</code>, which is what we’d like.</p>
-<p>If you currently have a <code>docs/</code> folder (like we did as we were experimenting), delete it.</p>
-<p><strong>Update <code>.gitignore</code> to ignore <code>_site/</code></strong>. At the same time, we have it ignore caches and a .quarto file:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/.quarto/</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">*_cache/</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ex">_site/</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Push these changes, merge into main.</strong></p>
-<p><strong>On GitHub.com, in your repo, set up GitHub publishing</strong></p>
-<p>Follow instructions from the <a href="https://openscapes.github.io/quarto-website-tutorial/explore.html#set-up-github-publishing">explore and setup chapter</a>.</p>
-</section>
-</section>
-<section id="troubleshooting" class="level2">
-<h2 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h2>
-<section id="github-action-fails-says-you-need-rmarkdown-but-you-dont-have-r-code" class="level3">
-<h3 class="anchored" data-anchor-id="github-action-fails-says-you-need-rmarkdown-but-you-dont-have-r-code">GitHub Action fails, says you need RMarkdown but you don’t have R code!</h3>
-<p>And you changed all .Rmds to .qmds!</p>
-<p>You likely have a few <code>setup</code> code chunks from RMarkdown, that look like this:</p>
-<p><code>{r setup, include=FALSE}</code></p>
-<p><code>knitr::opts_chunk$set(echo = FALSE)</code></p>
-<p>You can find them by opening each of your files and having a look, or use GitHub’s search for the keyword <code>knitr</code></p>
+<section id="onward" class="level2">
+<h2 class="anchored" data-anchor-id="onward">Onward!</h2>
+<p>Now you are ready to start editing and publishing! The next chapter describes how starting off from the browser, using Markdown.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -713,11 +746,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./learning-more.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Learning more</span>
+      <a href="./index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./quarto-workflows/index.html" class="pagination-link">
+        <span class="nav-page-text">Quarto workflows</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
