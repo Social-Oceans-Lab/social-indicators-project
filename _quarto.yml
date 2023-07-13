@@ -2,13 +2,14 @@ project:
   type: website
 
 website:
-  page-navigation: true
+  #page-navigation: true
   title: "American Lobster Fishery Social Indicators Project"
   site-url: "https://social-oceans-lab.github.io/social-indicators-project/"
   repo-url: https://github.com/Social-Oceans-Lab/social-indicators-project
   navbar:
     title: false
     background: light
+    search: false
     right:
       - text: "Home"
         file: index.qmd
