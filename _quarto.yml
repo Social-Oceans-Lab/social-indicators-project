@@ -33,6 +33,6 @@ format:
       #dark: [cosmo, theme-dark.scss]
     code-copy: true
     code-overflow: wrap
-    toc: true
+    toc: false
 
 

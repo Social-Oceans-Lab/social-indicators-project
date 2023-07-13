@@ -5,13 +5,13 @@ format: html
 ```{=html}
 <style>
   body {
-  background-image: url("https://umainesystem-my.sharepoint.com/:i:/g/personal/theresa_burnham_maine_edu/EXwgR0bXpsxJhQ-ixbx7ft4BZHSLAfXMM9k7Hf3BgLd5tA?e=URKG5O");
+  background-image: url("https://github.com/Social-Oceans-Lab/social-indicators-project/blob/main/images/scenic_lob_boats_sunset.jpg?raw=true");
   background-size: cover;
   background-repeat: no-repeat;
 }
   
 </style>
 ```
-# Sunset Sea
+# American Lobster Fishery Social Indicators Project
 
-Welcome to Sunset Sea.
+### Supporting Socioeconomic Monitoring of the Maine Lobster Fishery
