@@ -19,8 +19,8 @@ website:
         file: data-access.qmd
       - contact.qmd
   sidebar:
-    title: false
-    logo: "images/collab_logo.png"
+    title: "American Lobster Fishery Social Indicators Project"
+    logo: "images/collab_funding_logo.png"
     logo-alt: "Official logos of the University of Maine, Maine Department of Marine Resources, Maine Lobstermen's Association, and the Maine Center for Coastal Fisheries"
   page-footer:
     background: light
