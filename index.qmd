@@ -1,5 +1,5 @@
 ---
-title: "American Lobster Fishery Social Indicators Project"
+title: "American Lobster Fishery\n Social Indicators Project"
 subtitle: "Supporting Socioeconomic Monitoring of the Maine Lobster Fishery"
 ---
 
