@@ -3,7 +3,7 @@ project:
 
 website:
   #page-navigation: true
-  title: "American Lobster Fishery Social Indicators Project"
+  title: "American Lobster Fishery\n Social Indicators Project"
   site-url: "https://social-oceans-lab.github.io/social-indicators-project/"
   repo-url: https://github.com/Social-Oceans-Lab/social-indicators-project
   navbar:
@@ -11,8 +11,6 @@ website:
     background: light
     search: false
     right:
-      - text: "Home"
-        file: index.qmd
       - text: "Indicators"
         file: results.qmd
       - methods.qmd
@@ -32,7 +30,7 @@ format:
   html:
     theme:
       light: [cosmo, theme.scss] # from https://github.com/sta210-s22/website/blob/main/_quarto.yml
-      dark: [cosmo, theme-dark.scss]
+      #dark: [cosmo, theme-dark.scss]
     code-copy: true
     code-overflow: wrap
     toc: true
