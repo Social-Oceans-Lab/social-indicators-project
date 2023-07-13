@@ -13,6 +13,5 @@ format: html
 </style>
 ```
 
-# American Lobster Fishery Social Indicators Project
-
+# American Lobster Fishery
 ### Supporting Socioeconomic Monitoring of the Maine Lobster Fishery

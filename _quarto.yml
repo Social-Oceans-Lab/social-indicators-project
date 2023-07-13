@@ -25,6 +25,7 @@ website:
 
 format:
   html:
+    page-layout: full
     theme:
       - sitestyles.scss
     mainfont: Alice
