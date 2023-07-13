@@ -54,5 +54,33 @@
     "title": "Methods",
     "section": "Interviews Round 2",
     "text": "Interviews Round 2"
+  },
+  {
+    "objectID": "results.html",
+    "href": "results.html",
+    "title": "Social Indicators",
+    "section": "",
+    "text": "This collaborative project has led to the development of 8 social indicators. Each indicator aims to describe a different component of the socioeconomic status of the lobster fishery that cannot necessarily be measured directly, but may be able to be described by combining different types of data. Each of the following indicators was identified by the Maine fishermen and industry professionals that we interviewed as important for monitoring socioeconomic resilience of the fishery. See our Methods section to learn more.\nEach of our indicators has been categorized as data rich, data limited, or data poor depending upon the number and quality of the data sets that were collected to describe it. However, an indicator’s data status is not a measure of its importance, but does identify opportunities for gathering new data sources to enhance the data quality of all indicators."
+  },
+  {
+    "objectID": "results.html#data-rich-indicators",
+    "href": "results.html#data-rich-indicators",
+    "title": "Social Indicators",
+    "section": "Data Rich Indicators",
+    "text": "Data Rich Indicators\n\nCoastal Accessibility\n\n\n\nProfitability"
+  },
+  {
+    "objectID": "results.html#data-limited-indicators",
+    "href": "results.html#data-limited-indicators",
+    "title": "Social Indicators",
+    "section": "Data Limited Indicators",
+    "text": "Data Limited Indicators"
+  },
+  {
+    "objectID": "results.html#data-poor-indicators",
+    "href": "results.html#data-poor-indicators",
+    "title": "Social Indicators",
+    "section": "Data Poor Indicators",
+    "text": "Data Poor Indicators"
   }
 ]
