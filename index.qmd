@@ -1,12 +1,17 @@
 ---
-title: "American Lobster Fishery\n Social Indicators Project"
-subtitle: "Supporting Socioeconomic Monitoring of the Maine Lobster Fishery"
+format: html
 ---
 
-## Project Overview {#project-overview}
+```{=html}
+<style>
+  body {
+  background-image: url("https://umainesystem-my.sharepoint.com/:i:/g/personal/theresa_burnham_maine_edu/EXwgR0bXpsxJhQ-ixbx7ft4BZHSLAfXMM9k7Hf3BgLd5tA?e=URKG5O");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+</style>
+```
+# Sunset Sea
 
-![](images/bio_socio_lifecycle.png){width="1000"}
-
-## Collaborative Research Approach
-
-## 
+Welcome to Sunset Sea.

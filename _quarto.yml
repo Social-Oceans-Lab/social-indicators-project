@@ -8,7 +8,7 @@ website:
   repo-url: https://github.com/Social-Oceans-Lab/social-indicators-project
   navbar:
     title: "American Lobster Fishery Social Indicators Project"
-    background: light
+    background: transparent
     search: false
     right:
       - text: "Indicators"
@@ -17,10 +17,10 @@ website:
       - text: "Data Access"
         file: data-access.qmd
       - contact.qmd
-  sidebar:
-    title: "American Lobster Fishery Social Indicators Project"
-    logo: "images/collab_funding_logo.png"
-    logo-alt: "Official logos of the University of Maine, Maine Department of Marine Resources, Maine Lobstermen's Association, and the Maine Center for Coastal Fisheries"
+  #sidebar:
+    #title: "American Lobster Fishery Social Indicators Project"
+    #logo: "images/collab_funding_logo.png"
+    #logo-alt: "Official logos of the University of Maine, Maine Department of Marine Resources, Maine Lobstermen's Association, and the Maine Center for Coastal Fisheries"
   page-footer:
     background: dark
     right: "This page is built using [Quarto](https://quarto.org/)."
