@@ -7,7 +7,7 @@ website:
   site-url: "https://social-oceans-lab.github.io/social-indicators-project/"
   repo-url: https://github.com/Social-Oceans-Lab/social-indicators-project
   navbar:
-    title: "American Lobster Fishery Social Indicators Project"
+    logo: "images/amlob_socialindicators_logo.png"
     background: transparent
     search: false
     right:
@@ -22,14 +22,15 @@ website:
     #logo: "images/collab_funding_logo.png"
     #logo-alt: "Official logos of the University of Maine, Maine Department of Marine Resources, Maine Lobstermen's Association, and the Maine Center for Coastal Fisheries"
   page-footer:
-    background: dark
+    background: transparent
     right: "This page is built using [Quarto](https://quarto.org/)."
     left: "&copy; Univeristy of Maine, 2023"
 
 format:
   html:
     theme:
-      light: [cosmo, theme.scss] # from https://github.com/sta210-s22/website/blob/main/_quarto.yml
+      - sitestyles.scss
+      #light: [cosmo, theme.scss] # from https://github.com/sta210-s22/website/blob/main/_quarto.yml
       #dark: [cosmo, theme-dark.scss]
     code-copy: true
     code-overflow: wrap
