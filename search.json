@@ -1,30 +1,58 @@
 [
   {
-    "objectID": "index.html#what-is-quarto",
-    "href": "index.html#what-is-quarto",
-    "title": "American Lobster Fishery Social Indicators Project",
-    "section": "What is Quarto?",
-    "text": "What is Quarto?"
+    "objectID": "data-access.html",
+    "href": "data-access.html",
+    "title": "Data Access",
+    "section": "",
+    "text": "The project team is committed to supporting future work related to the socioeconomic resilience of small scale fisheries in Maine and beyond. As part of that commitment, we are happy to share the data sets and corresponding code used to conduct our analyses."
   },
   {
-    "objectID": "index.html#what-is-this-tutorial",
-    "href": "index.html#what-is-this-tutorial",
-    "title": "American Lobster Fishery Social Indicators Project",
-    "section": "What is this tutorial?",
-    "text": "What is this tutorial?"
+    "objectID": "data-access.html#data-request",
+    "href": "data-access.html#data-request",
+    "title": "Data Access",
+    "section": "Data Request",
+    "text": "Data Request\nComplete this form to submit a data request to our team."
   },
   {
-    "objectID": "index.html#example-quarto-sites",
-    "href": "index.html#example-quarto-sites",
-    "title": "American Lobster Fishery Social Indicators Project",
-    "section": "Example Quarto sites",
-    "text": "Example Quarto sites"
+    "objectID": "data-access.html#gomfish-r-package",
+    "href": "data-access.html#gomfish-r-package",
+    "title": "Data Access",
+    "section": "gomfish R package",
+    "text": "gomfish R package\nIn August of 2023, we will be releasing an R package to host many of the fisheries and community data sets used in this work. Please check back here for updates or send an email to theresa.burnham@maine.edu if you would like to be notified of its release."
   },
   {
-    "objectID": "index.html#collaborative-commitment",
-    "href": "index.html#collaborative-commitment",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Learn More",
+    "section": "",
+    "text": "Join Our Open Meetings\nWe host regular open meetings to share our progress and gather feedback from anyone who is interested in this work. If you would like to be added to our invitation list for those meetings, please submit your information here.\n\n\nRequest A Briefing\nTo learn more about our project, or request a briefing for your research group you can email Theresa Burnham: theresa.burnham@maine.edu"
+  },
+  {
+    "objectID": "index.html#collaborative-research-approach",
+    "href": "index.html#collaborative-research-approach",
     "title": "American Lobster Fishery Social Indicators Project",
-    "section": "Collaborative Commitment",
-    "text": "Collaborative Commitment"
+    "section": "Collaborative Research Approach",
+    "text": "Collaborative Research Approach"
+  },
+  {
+    "objectID": "methods.html#quantiative-analysis",
+    "href": "methods.html#quantiative-analysis",
+    "title": "Methods",
+    "section": "Quantiative Analysis",
+    "text": "Quantiative Analysis"
+  },
+  {
+    "objectID": "methods.html#qualitative-analysis",
+    "href": "methods.html#qualitative-analysis",
+    "title": "Methods",
+    "section": "Qualitative Analysis",
+    "text": "Qualitative Analysis"
+  },
+  {
+    "objectID": "methods.html#interviews-round-2",
+    "href": "methods.html#interviews-round-2",
+    "title": "Methods",
+    "section": "Interviews Round 2",
+    "text": "Interviews Round 2"
   }
 ]
