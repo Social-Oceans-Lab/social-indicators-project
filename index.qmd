@@ -5,6 +5,8 @@ subtitle: "Supporting Socioeconomic Monitoring of the Maine Lobster Fishery"
 
 ## Project Overview {#project-overview}
 
+![](images/bio_socio_lifecycle.png){width="1000"}
+
 ## Collaborative Research Approach
 
 ## 

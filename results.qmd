@@ -8,6 +8,8 @@ Each of our indicators has been categorized as data rich, data limited, or data 
 
 ## Data Rich Indicators
 
+![](images/data_rich_indicators.png)
+
 #### Coastal Accessibility
 
 ![](images/ca_fa_score_plot.png){width="1200"}
