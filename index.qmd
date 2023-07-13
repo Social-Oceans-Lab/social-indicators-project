@@ -5,18 +5,13 @@ format: html
 ```{=html}
 <style>
   body {
-  background-image: url("https://github.com/Social-Oceans-Lab/social-indicators-project/blob/main/images/scenic_lob_boats_sunset.jpg?raw=true");
+  background-image: url("https://github.com/Social-Oceans-Lab/social-indicators-project/blob/main/images/lob_boats.JPG?raw=true");
   background-size: cover;
   background-repeat: no-repeat;
 }
   
 </style>
 ```
-\
-\
-\
-\
-\
 
 # American Lobster Fishery Social Indicators Project
 

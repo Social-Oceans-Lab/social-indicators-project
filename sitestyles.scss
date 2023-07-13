@@ -1,12 +1,40 @@
 /*-- scss:defaults --*/
 
+//Font Import
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+//Font Families
+$font-family-serif: 'Alice', serif;
+
 // Colors
 $red: #CC2229;
-#bluegray: #6E7EA1;
-
-// Font
-$my-font-size: 20px
+$bluegray: #6E7EA1;
 
 // Base document colors
-$footer-bg: $bluegray //footer
-#link-color: $red //hyperlinks
+
+$footer-fg: $bluegray;
+$link-color: $red; //hyperlinks
+
+/*-- scss:rules --*/
+h1 {
+  letter-spacing: 5px;
+  font-weight: 1000;
+  font-size: 4rem;
+  color: white;
+}
+
+#title-block-header{
+  background-image: url();
+}
+
+.title{
+  color: $bluegray;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+}
+
+.navbar-logo {
+  max-height: 60px;
+}
