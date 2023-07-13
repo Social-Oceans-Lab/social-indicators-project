@@ -3,22 +3,24 @@ project:
 
 website:
   page-navigation: true
-  title: "AMLOB"
+  title: "American Lobster Fishery Social Indicators Project"
   site-url: "https://social-oceans-lab.github.io/social-indicators-project/"
   repo-url: https://github.com/Social-Oceans-Lab/social-indicators-project
   navbar:
     title: false
     background: light
-    logo: "images/collab_logo.png"
-    logo-alt: "Official logos of the University of Maine, Maine Department of Marine Resources, Maine Lobstermen's Association, and the Maine Center for Coastal Fisheries"
     right:
       - text: "Home"
-      - file: index.qmd
+        file: index.qmd
       - methods.qmd
       - results.qmd
       - text: "Data Access"
-      - file: data-access.qmd
-      - text: "Contact"
+        file: data-access.qmd
+      - contact.qmd
+  sidebar:
+    title: false
+    logo: "images/collab_logo.png"
+    logo-alt: "Official logos of the University of Maine, Maine Department of Marine Resources, Maine Lobstermen's Association, and the Maine Center for Coastal Fisheries"
   page-footer:
     background: light
     right: "This page is built using [Quarto](https://quarto.org/)."

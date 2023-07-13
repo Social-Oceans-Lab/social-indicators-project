@@ -2,4 +2,12 @@
 title: Data Access
 ---
 
+The project team is committed to supporting future work related to the socioeconomic resilience of small scale fisheries in Maine and beyond. As part of that commitment, we are happy to share the data sets and corresponding code used to conduct our analyses.
 
+## Data Request
+
+Complete this form to submit a data request to our team.
+
+## *gomfish* R package
+
+In August of 2023, we will be releasing an R package to host many of the fisheries and community data sets used in this work. Please check back here for updates or send an email to theresa.burnham\@maine.edu if you would like to be notified of its release.

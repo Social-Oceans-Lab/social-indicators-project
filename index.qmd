@@ -5,14 +5,6 @@ subtitle: "Supporting Socioeconomic Monitoring of the Maine Lobster Fishery"
 
 ## Project Overview {#project-overview}
 
+## Collaborative Research Approach
 
-## What is Quarto?
-
-
-## What is this tutorial?
-
-
-## Example Quarto sites
-
-
-## Collaborative Commitment
+## 

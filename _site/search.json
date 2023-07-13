@@ -177,9 +177,9 @@
   {
     "objectID": "data-access.html",
     "href": "data-access.html",
-    "title": "Transition from RMarkdown",
+    "title": "Data Access",
     "section": "",
-    "text": "You may already have workflows in RMarkdown and are interested in transitioning to Quarto. There’s no hurry to migrate to Quarto. Keep using Rmarkdown and when you’re ready the migration will be fine.\nHere are some notes as we migrate RMarkdown sites and books.\nTODO: translating R code chunks"
+    "text": "The project team is committed to supporting future work related to the socioeconomic resilience of small scale fisheries in Maine and beyond. As part of that commitment, we are happy to share the data sets and corresponding code used to conduct our analyses."
   },
   {
     "objectID": "data-access.html#bookdown-to-quarto",
@@ -361,7 +361,7 @@
     "href": "methods.html",
     "title": "Methods",
     "section": "",
-    "text": "With this tutorial, we have a working example website that we will explore together. We’ll learn a few rules and look for patterns to get an understanding of what things to do to help you start customizing and making it your own. And you can continue to use this website as a reference after the tutorial, along with Quarto documentation.\nWe’ll start our exploration online looking at the website architecture and GitHub repository. Then we’ll setup a copy for ourselves so that we can modify from a working example, which is a great way to learn something new. We’ll set it up so that any modifications (commits) will automatically be republished via GitHub Actions. Subsequent chapters will describe how to modify your repo using different tools (browser, RStudio, Jupyter)."
+    "text": "Interviews Round 1\n\n\nQuantiative Analysis\n\n\nQualitative Analysis\n\n\nInterviews Round 2"
   },
   {
     "objectID": "methods.html#interviews",
@@ -411,5 +411,54 @@
     "title": "Methods",
     "section": "Onward!",
     "text": "Onward!\nNow you are ready to start editing and publishing! The next chapter describes how starting off from the browser, using Markdown."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Learn More",
+    "section": "",
+    "text": "Join Our Open Meetings\nWe host regular open meetings to share our progress and gather feedback from anyone who is interested in this work. If you would like to be added to our invitation list for those meetings, please submit your information here.\n\n\nRequest A Briefing\nTo learn more about our project, or request a briefing for your research group you can email Theresa Burnham: theresa.burnham@maine.edu"
+  },
+  {
+    "objectID": "data-access.html#data-request",
+    "href": "data-access.html#data-request",
+    "title": "Data Access",
+    "section": "Data Request",
+    "text": "Data Request\nComplete this form to submit a data request to our team."
+  },
+  {
+    "objectID": "data-access.html#gomfish-r-package",
+    "href": "data-access.html#gomfish-r-package",
+    "title": "Data Access",
+    "section": "gomfish R package",
+    "text": "gomfish R package\nIn August of 2023, we will be releasing an R package to host many of the fisheries and community data sets used in this work. Please check back here for updates or send an email to theresa.burnham@maine.edu if you would like to be notified of its release."
+  },
+  {
+    "objectID": "methods.html#quantiative-analysis",
+    "href": "methods.html#quantiative-analysis",
+    "title": "Methods",
+    "section": "Quantiative Analysis",
+    "text": "Quantiative Analysis"
+  },
+  {
+    "objectID": "methods.html#qualitative-analysis",
+    "href": "methods.html#qualitative-analysis",
+    "title": "Methods",
+    "section": "Qualitative Analysis",
+    "text": "Qualitative Analysis"
+  },
+  {
+    "objectID": "methods.html#interviews-round-2",
+    "href": "methods.html#interviews-round-2",
+    "title": "Methods",
+    "section": "Interviews Round 2",
+    "text": "Interviews Round 2"
+  },
+  {
+    "objectID": "index.html#collaborative-research-approach",
+    "href": "index.html#collaborative-research-approach",
+    "title": "American Lobster Fishery Social Indicators Project",
+    "section": "Collaborative Research Approach",
+    "text": "Collaborative Research Approach"
   }
 ]
