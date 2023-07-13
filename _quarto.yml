@@ -24,7 +24,7 @@ website:
     logo: "images/collab_funding_logo.png"
     logo-alt: "Official logos of the University of Maine, Maine Department of Marine Resources, Maine Lobstermen's Association, and the Maine Center for Coastal Fisheries"
   page-footer:
-    background: light
+    background: dark
     right: "This page is built using [Quarto](https://quarto.org/)."
     left: "&copy; Univeristy of Maine, 2023"
 
