@@ -19,7 +19,7 @@ website:
         file: data-access.qmd
       - contact.qmd
   page-footer:
-    background: transparent
+    background: white
     right: "This page is built using [Quarto](https://quarto.org/)."
     left: "&copy; Univeristy of Maine, 2023"
 

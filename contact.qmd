@@ -2,10 +2,10 @@
 title: Learn More
 ---
 
-# Join Our Open Meetings
+## Join Our Open Meetings
 
 We host regular open meetings to share our progress and gather feedback from anyone who is interested in this work. If you would like to be added to our invitation list for those meetings, please submit your information [here](https://docs.google.com/forms/d/e/1FAIpQLScm5WRhVNnmGKeolQddz6V4zreBbN7PwLvVslTdPHBPVWKK4A/viewform?usp=sf_link).
 
-# Request A Briefing
+## Request A Briefing
 
 To learn more about our project, or request a briefing for your research group you can email Theresa Burnham: theresa.burnham\@maine.edu

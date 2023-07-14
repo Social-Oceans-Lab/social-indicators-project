@@ -417,7 +417,7 @@
     "href": "contact.html",
     "title": "Learn More",
     "section": "",
-    "text": "Join Our Open Meetings\nWe host regular open meetings to share our progress and gather feedback from anyone who is interested in this work. If you would like to be added to our invitation list for those meetings, please submit your information here.\n\n\nRequest A Briefing\nTo learn more about our project, or request a briefing for your research group you can email Theresa Burnham: theresa.burnham@maine.edu"
+    "text": "We host regular open meetings to share our progress and gather feedback from anyone who is interested in this work. If you would like to be added to our invitation list for those meetings, please submit your information here."
   },
   {
     "objectID": "data-access.html#data-request",
@@ -485,9 +485,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "American Lobster Fishery",
+    "title": "American Lobster Fishery Social Indicators Project",
     "section": "",
-    "text": "American Lobster Fishery\n\nSupporting Socioeconomic Monitoring of the Maine Lobster Fishery"
+    "text": "American Lobster Fishery Social Indicators Project\n\nSupporting Socioeconomic Monitoring of the Maine Lobster Fishery"
   },
   {
     "objectID": "index.html#project-overview",
@@ -495,5 +495,19 @@
     "title": "American Lobster Fishery Social Indicators Project",
     "section": "",
     "text": "Collaborative Research Approach"
+  },
+  {
+    "objectID": "contact.html#join-our-open-meetings",
+    "href": "contact.html#join-our-open-meetings",
+    "title": "Learn More",
+    "section": "",
+    "text": "We host regular open meetings to share our progress and gather feedback from anyone who is interested in this work. If you would like to be added to our invitation list for those meetings, please submit your information here."
+  },
+  {
+    "objectID": "contact.html#request-a-briefing",
+    "href": "contact.html#request-a-briefing",
+    "title": "Learn More",
+    "section": "Request A Briefing",
+    "text": "Request A Briefing\nTo learn more about our project, or request a briefing for your research group you can email Theresa Burnham: theresa.burnham@maine.edu"
   }
 ]
