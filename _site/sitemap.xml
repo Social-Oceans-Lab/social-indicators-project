@@ -1,51 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/rstudio.html</loc>
-    <lastmod>2023-07-12T21:51:27.709Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/jupyter.html</loc>
-    <lastmod>2023-07-12T21:51:26.699Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/explore.html</loc>
-    <lastmod>2023-07-12T21:51:25.572Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/data-access.html</loc>
-    <lastmod>2023-07-13T23:45:03.195Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/r-example.html</loc>
-    <lastmod>2023-07-12T22:39:22.356Z</lastmod>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/methods.html</loc>
+    <lastmod>2023-07-20T17:26:04.746Z</lastmod>
   </url>
   <url>
     <loc>https://social-oceans-lab.github.io/social-indicators-project/index.html</loc>
-    <lastmod>2023-07-14T00:38:33.124Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/learning-more.html</loc>
-    <lastmod>2023-07-12T21:51:24.823Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/browser.html</loc>
-    <lastmod>2023-07-12T21:51:26.063Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/quarto-workflows/index.html</loc>
-    <lastmod>2023-07-12T21:51:27.170Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/results.html</loc>
-    <lastmod>2023-07-14T00:27:54.027Z</lastmod>
-  </url>
-  <url>
-    <loc>https://social-oceans-lab.github.io/social-indicators-project/methods.html</loc>
-    <lastmod>2023-07-13T23:45:01.647Z</lastmod>
+    <lastmod>2023-07-20T17:26:03.996Z</lastmod>
   </url>
   <url>
     <loc>https://social-oceans-lab.github.io/social-indicators-project/contact.html</loc>
-    <lastmod>2023-07-14T00:38:29.995Z</lastmod>
+    <lastmod>2023-07-20T17:26:03.230Z</lastmod>
+  </url>
+  <url>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/results.html</loc>
+    <lastmod>2023-07-20T17:26:03.652Z</lastmod>
+  </url>
+  <url>
+    <loc>https://social-oceans-lab.github.io/social-indicators-project/data-access.html</loc>
+    <lastmod>2023-07-20T17:26:04.308Z</lastmod>
   </url>
 </urlset>

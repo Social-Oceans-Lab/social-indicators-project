@@ -13,5 +13,5 @@ format: html
 </style>
 ```
 
-# American Lobster Fishery Social Indicators Project
-### Supporting Socioeconomic Monitoring of the Maine Lobster Fishery
+# American Lobster Fishery Social Indicators Research
+### As a partnership between the Maine Department of Marine Resources, Maine Center for Coastal Fisheries, Maine Lobstermen's Association, and the University of Maine, this research aims to develop near real-time social indiciators of resilience in the lobster fishery that can support fishermen, scientists, manager, and policy makers identify early signs of vulnerability in the fleet.

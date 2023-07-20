@@ -3,7 +3,7 @@ project:
 
 website:
   #page-navigation: true
-  title: "American Lobster Fishery Social Indicators Project"
+  title: "American Lobster Fishery Social Indicators Research"
   site-url: "https://social-oceans-lab.github.io/social-indicators-project/"
   repo-url: https://github.com/Social-Oceans-Lab/social-indicators-project
   navbar:
